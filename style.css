@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.gth {
+  font-family: "Gotham Screen Smart";
+  font-weight: 800;
+}
+
+body {
+  font-family: "Gotham Screen Smart";
+  font-weight: 800;
+  background-color: #f7f7f7;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+#icon {
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+}
+
+.fs-8 {
+  font-size: 0.8rem;
+}
+
+.fm {
+  font-family: "Gotham Screen Smart";
+}
+
+.pd {
+  padding: 0 !important;
+}
+
+.leftpage {
+  z-index: 1;
+  overflow: auto;
+  height: 100vh;
+}
+
+.leftsidevideo {
+  position: fixed !important;
+  background-color: rgb(220, 240, 227);
+  font-family: "Gotham Screen Smart";
+  font-weight: 1000;
+}
+
+.leftsidevideo video {
+  width: 100%;
+  height: 100%;
+}
+
+.rightpage {
+  display: flex;
+  flex-direction: column;
+}
+
+/* topcontent */
+.firstcont {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 20%;
+}
+
+.img2 {
+  display: flex;
+  width: 100%;
+}
+
+.img2 img {
+  width: 95%;
+}
+
+.toptext {
+  display: flex;
+  flex-direction: column;
+  height: 20%;
+  width: 81%;
+}
+
+.toptext p {
+  font-size: 0.8rem;
+  font-family: "Gotham Screen Smart";
+  font-weight: 400;
+}
+
+.inbtn {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#ymk {
+  height: 35px;
+  width: 45%;
+  border: 1px solid #008248;
+  background-color: #008248;
+  border-radius: 55px;
+  color: white;
+  font-weight: 800;
+}
+
+#gtr {
+  border: 1px solid #008248;
+  background-color: white;
+  color: #008248;
+  font-weight: 800;
+}
+
+.cont {
+  width: 45%;
+}
+
+.cont img {
+  width: 100%;
+}
+
+.text2 {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  --bs-gutter-x: 0 !important;
+}
+
+#hps {
+  margin-top: 20px;
+  border: 1px solid #008248;
+  background-color: #008248;
+  color: white;
+}
+
+.navbar a {
+  font-weight: 600;
+  font-family: "Gotham Screen Smart";
+}
+
+#gtr1 {
+  height: 35px;
+  width: 20%;
+  border: 1px solid #008248;
+  border-radius: 55px;
+  background-color: white;
+  color: #008248;
+  font-weight: 800;
+}
+
+#gtr1:hover {
+  background-color: rgb(233, 231, 231);
+}
+
+.accordion {
+  --bs-accordion-active-bg: white !important;
+  --bs-accordion-active-color: black !important;
+  --bs-accordion-btn-focus-box-shadow: none !important;
+  --bs-accordion-border-color: white !important;
+}
+
+@media (max-width: 992px) {
+  .leftsidevideo {
+    position: relative !important;
+    z-index: 1 !important;
+    display: block;
+    width: 100%;
+  }
+
+  .rightpage {
+    z-index: 2 !important;
+    width: 100%;
+  }
+}
